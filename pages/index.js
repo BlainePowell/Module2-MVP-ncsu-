@@ -1,9 +1,9 @@
 import styles from '../styles/Home.module.css'
 import dynamic from 'next/dynamic'
-import Nav from './components/nav'
+import Nav from '../components/nav'
 
 const Model = dynamic(
-  () => import('./components/model'),
+  () => import('../components/model'),
   { ssr: false }
 )
 
