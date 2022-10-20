@@ -23,7 +23,7 @@ export default function Home() {
   </div>
 </div>
 <iframe src="https://www.youtube.com/embed/GhX2GVNspog" 
- className={styles.video} allowfullscreen></iframe>
+ className={styles.video}></iframe>
  <div className={styles.footer}>
   <p>MIE 310 (001) module two MVP website created by Blaine Powell</p>
  </div>
